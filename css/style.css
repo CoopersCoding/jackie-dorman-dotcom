@@ -3,10 +3,22 @@
 * Trunk version 2.0.1
 */
 
+.page-header-2-main-background {
+	/*work on gradient here*/
+	
+}
 
+
+
+.screamer-text {
+	padding: 10px 0;
+	width: 100%;
+    text-align: left;
+    font-family: "Editors Note Regular", "Work Sans", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
 
 .container.screamer {
-	background-color: #00a3a3;
+	
 	padding: 10px 0;
 	width: 100%;
 }
@@ -150,7 +162,7 @@ p {
 h1, h2, h3, h4, h5, h6, [class*='heading-'] {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-family: "Zilla Slab", "Times New Roman", Times, serif;
+	font-family: 'Editors Note Regular', "Times New Roman", Times, serif;
 	font-weight: 300;
 	color: #151515;
 }
@@ -242,7 +254,7 @@ h1.big,
 
 h2,
 .heading-2 {
-	font-family: "Zilla Slab", "Times New Roman", Times, serif;
+	font-family: "Editors Note Regular", "Times New Roman", Times, serif;
 	font-weight: 300;
 	font-size: 28px;
 	line-height: 1.25;
@@ -348,7 +360,7 @@ h5,
 
 h6,
 .heading-6 {
-	font-family: "Zilla Slab", "Times New Roman", Times, serif;
+	font-family: "Editors Note Regular", "Times New Roman", Times, serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.8;
@@ -434,7 +446,7 @@ code {
 }
 
 .text-style-1 {
-	font-family: "Zilla Slab", "Times New Roman", Times, serif;
+	font-family: "Editors Note Regular", "Times New Roman", Times, serif;
 	font-size: 22px;
 	line-height: 1.2;
 	font-weight: 500;
@@ -1032,9 +1044,9 @@ img-cover {
 	display: flex;
 	align-items: center;
 	text-align: left;
-	font-family: "Zilla Slab", "Times New Roman", Times, serif;
-	font-size: 24px;
-	font-weight: 300;
+	font-family: "Editors Note Regular", "Times New Roman", Times, serif;
+	font-size: 34px;
+	font-weight: 400;
 }
 
 .box-creative a, .box-creative a:active, .box-creative a:focus, .box-creative a:hover {
@@ -6083,6 +6095,7 @@ html:not(.tablet):not(.mobile) .profile-classic-caption {
 
 * + .page-header-2-main {
 	padding-top: 25px;
+	
 }
 
 * + .page-header-2-aside {
@@ -11715,7 +11728,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .context-dark .owl-dot:hover, .bg-gray-900 .owl-dot:hover, .bg-primary .owl-dot:hover, .context-dark .owl-dot.active, .bg-gray-900 .owl-dot.active, .bg-primary .owl-dot.active {
-	background-color: rgba(255, 229, 3, 0.5);;
+	background-color: rgba(255, 229, 3, 0.5);
 }
 
 .bg-gray-100 .owl-dot,
@@ -14384,3 +14397,23 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 		padding-bottom: 80px;
 	}
 }
+
+.footer-modern-aside {
+	align-items: center;
+	padding: 60px, 20px, 60px, 20px;
+	list-style: none;
+	background-color: #333;
+	font-size: 20px;
+}
+
+.footer-menu {
+	margin: 0;
+	padding: 40px;
+	list-style: none;
+}
+
+.rights {
+	color: #ffffff;
+	font-style: italic;
+}
+
