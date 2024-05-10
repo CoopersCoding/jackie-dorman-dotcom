@@ -6211,7 +6211,7 @@ html:not(.tablet):not(.mobile) .profile-classic-caption {
 }
 
 .text-primary {
-	color: rgba(255, 229, 3, 0.5); !important;
+	color: rgba(255, 229, 3, 0.5); 
 }
 
 .text-gray-300 {
