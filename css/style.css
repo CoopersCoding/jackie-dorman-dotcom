@@ -11,11 +11,42 @@
 
 
 .screamer-text {
-	padding: 10px 0;
-	width: 100%;
-    text-align: left;
-    font-family: "Editors Note Regular", "Work Sans", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
-}
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 30px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	
+
+	
+  }
+  
+  .screamer-text h4,
+  .screamer-text h2,
+  .screamer-text h5 {
+	text-align: center;
+	
+  }
+
+  .screamer-text h2 {
+	font-family: "Dancing Script", cursive;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+  }
+
+  .screamer-text h5 {
+	font: normal normal 25px / 30px 'oswald';
+	font-weight: 800;
+  }
+
+  .screamer-text h4 {
+	font: normal normal 25px / 25px 'oswald';
+	text-transform: uppercase;
+	font-size: 60px;
+  }
 
 .container.screamer {
 	
@@ -221,8 +252,10 @@ h1,
 
 h1.big,
 .heading-1.big {
-	font-family: "Yesteryear", cursive;
-	font-size: 50px;
+	font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 80px;
 	color: #7ace9d;
 	line-height: .94;
 	margin-left: 5px;
@@ -6328,6 +6361,14 @@ h3 + img {
 
 html .h-custom-1 + * {
 	margin-top: 20px;
+}
+
+.h-custom-1 {
+	margin-top: 20px;
+	font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 html .h-custom-2 + * {
