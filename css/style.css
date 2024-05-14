@@ -4,20 +4,30 @@
 */
 
 .page-header-2-main-background {
-	/*work on gradient here*/
-	
+    
+    /* Adjust the angle and color codes as needed */
 }
 
+.screamer {
+	background: linear-gradient(to right, #ff7e5f, #feb47b); /* Adjust colors as needed */
+}
 
+.screamer-image {
+	max-width: 250px; /* Set the maximum width as needed. this css changes the image height/width */
+	
+	
+	
+  }
 
 .screamer-text {
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+	justify-content: left;
+	align-items: left;
+	text-align: left;
 	margin: 30px;
 	padding: 0px;
 	display: flex;
 	flex-direction: column;
+	
 	
 
 	
@@ -26,7 +36,8 @@
   .screamer-text h4,
   .screamer-text h2,
   .screamer-text h5 {
-	text-align: center;
+	margin: 0;
+	padding: 0;
 	
   }
 
@@ -49,10 +60,14 @@
   }
 
 .container.screamer {
-	
 	padding: 10px 0;
 	width: 100%;
 }
+
+.button.button-primary.button-raven {
+	display: block;
+	margin: 0 auto;
+  }
 
 a:focus,
 button:focus {
@@ -955,7 +970,6 @@ img-cover {
 		right: 0;
 		bottom: 0;
 		height: 40px;
-		background: linear-gradient(to top, white 50%, rgba(255, 255, 255, 0.4));
 		border-radius: inherit;
 	}
 }
@@ -9383,6 +9397,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main-outer {
 	padding-left: 15px;
 	padding-right: 15px;
+	
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main {
