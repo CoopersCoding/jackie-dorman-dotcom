@@ -9,7 +9,7 @@
 }
 
 .screamer {
-	background: linear-gradient(to right, #f87437, #dace2d); /* Adjust colors as needed */
+	background: linear-gradient(to right, #f7a884, #f3eea2); /* Adjust colors as needed */
 	display: flex;
   	justify-content: center;
 }
@@ -80,7 +80,7 @@
   }
 
 
-  @media (max-width: 440px) {
+  @media (max-width: 500px) {
 	.screamer {
 	  flex-direction: column;
 	  
