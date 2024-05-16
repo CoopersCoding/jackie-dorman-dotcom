@@ -9,15 +9,19 @@
 }
 
 .screamer {
-	background: linear-gradient(to right, #ff7e5f, #feb47b); /* Adjust colors as needed */
+	background: linear-gradient(to right, #f87437, #dace2d); /* Adjust colors as needed */
+	display: flex;
+  	justify-content: center;
 }
 
 .screamer-image {
 	max-width: 250px; /* Set the maximum width as needed. this css changes the image height/width */
-	
-	
-	
+	display: flex;
+  	align-items: flex-end;
   }
+
+  
+
 
   .custom-button {
 	background-color: yellow; /* Set your desired background color */
@@ -39,7 +43,7 @@
 	justify-content: left;
 	align-items: left;
 	text-align: left;
-	margin: 30px 0px 0px 0px;
+	margin: 30px 0px 0px 70px;
 	padding: 0px;
 	display: flex;
 	flex-direction: column;
@@ -52,21 +56,21 @@
   .screamer-text h4,
   .screamer-text h2,
   .screamer-text h5 {
-	margin: 0;
-	padding: 0;
+	
 	
   }
 
   .screamer-text h2 {
 	font-family: "oswald", cursive;
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: <weight>;
 	font-style: normal;
   }
 
   .screamer-text h5 {
-	font: normal normal 20px 'oswald';
+	font: normal normal 30px 'oswald';
 	font-weight: 800;
+	margin-top: 0px;
   }
 
   .screamer-text h4 {
@@ -75,6 +79,38 @@
 	
   }
 
+
+  @media (max-width: 440px) {
+	.screamer {
+	  flex-direction: column;
+	  
+	}
+	.screamer-text {
+		text-align: center;
+		margin-left: auto;
+	  }
+	.screamer-text h2 {
+		font-family: "oswald";
+		font-size: 40px;
+		font-style: normal;
+	  }
+	
+	  .screamer-text h5 {
+		font: normal normal 20px 'oswald';
+		font-weight: 800;
+		margin-top: 0px;
+		text-align: center;
+	  }
+	
+	  .screamer-text h4 {
+		font-family: 'oswald';
+		text-transform: uppercase;
+	  }
+
+	  .custom-button {
+		  
+	  }
+  }
 
 
 .button.button-primary.button-raven {
@@ -284,11 +320,11 @@ h1.big,
   font-weight: 400;
   font-style: normal;
 	font-size: 80px;
+	margin-top: 30px; /* Adjust the value as needed */
 	color: #7ace9d;
 	line-height: .94;
 	margin-left: 5px;
 	letter-spacing: 0;
-	opacity: 60%;
 }
 
 @media (min-width: 576px) {
@@ -1090,6 +1126,7 @@ img-cover {
 	background: #f6f6f6;
 	border-radius: 3px;
 	text-align: center;
+	
 }
 
 .bg-gray-100 .box-award {
@@ -1099,6 +1136,14 @@ img-cover {
 .box-award-title {
 	color: #151515;
 }
+
+.box-award-image {
+	max-width: 100%;
+	max-height: 400px;
+	
+
+}
+
 
 .box-creative {
 	display: flex;
@@ -6130,9 +6175,15 @@ html:not(.tablet):not(.mobile) .profile-classic-caption {
 
 .page-header-2-image-wrap {
 	position: absolute;
-	left: 42.2%;
+	left: 50%;
 	bottom: -30px;
 }
+
+.page-header-2-image-wrap img {
+	max-width: 70%; /* Adjust the value as needed */
+	height: auto; /* Maintain aspect ratio */
+	margin-right: 60px; /* Adjust the value as needed to move the image to the right */
+  }
 
 @media (min-width: 576px) {
 	.page-header-2-image-wrap {
@@ -7215,6 +7266,30 @@ html [class*='section-'].section-bottom-0 {
 		max-width: 50%;
 	}
 }
+
+@media only screen and (max-width: 414px) {
+  .screamer {
+    flex-direction: column;
+  }
+  
+  .screamer-text {
+    flex: initial;
+  }
+}@media only screen and (max-width: 440px) {
+	.screamer {
+	  flex-direction: column;
+	}
+
+	.screamer-image {
+	/*make image disappear on mobile*/
+	  display: none;
+	}
+	
+	.screamer-text {
+	  flex: initial;
+
+	}
+  }
 
 .grid-1 {
 	display: flex;
